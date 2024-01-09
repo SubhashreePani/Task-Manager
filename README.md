@@ -8,8 +8,7 @@ This is a simple Task Management System developed using Django.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
@@ -37,4 +36,14 @@ Follow these commands to set up
 
    python manage.py migrate
 
-   python manage.py run server
+   python manage.py run serve
+r
+## Usage
+
+- Create a new task by navigating to the "Create Task" page.
+- View your tasks on the "Task List" page.
+- Click on a task to view details or update/delete it.
+- Update tasks on the "Edit Task" page.
+- Confirm and delete tasks on the "Confirm Deletion" page.
+
+
