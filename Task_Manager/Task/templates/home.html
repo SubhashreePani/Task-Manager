@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .home-container {
+            text-align: center;
+        }
+
+        .home-container b {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .home-container button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="home-container">
+    <b>Welcome to Task Manager</b>
+    <a href="{% url 'Task:task_list' %}"><button>Task List</button></a>
+    <a href="{% url 'Task:task_create' %}"><button>Create Task</button></a>
+    <!-- Add more buttons for other views as needed -->
+</div>
+
+</body>
+</html>
