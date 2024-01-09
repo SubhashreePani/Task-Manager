@@ -28,4 +28,5 @@ The Task Management System is a web application built with Django, allowing user
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/SubhashreePani/Task-Manager.git
+
