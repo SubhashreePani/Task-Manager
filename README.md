@@ -30,7 +30,11 @@ The Task Management System is a web application built with Django, allowing user
    ```bash
    git clone https://github.com/SubhashreePani/Task-Manager.git
 Follow these commands to set up 
+   ```bash
    cd Task_Manager
-   pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
+   ```bash
    python manage.py migrate
+   ```bash
    python manage.py run server
