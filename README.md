@@ -33,7 +33,7 @@ The Task Management System is a web application built with Django, allowing user
    cd Task_Manager
    pip install -r requirements.txt
    python manage.py migrate
-   python manage.py run serve
+   python manage.py runserve
 
 ## Usage
 
